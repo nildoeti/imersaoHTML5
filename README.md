@@ -10,7 +10,7 @@ Define o elemento como um flex container, tornando os seus filhos  [flex-itens](
 
 #### flex-direction
 
-Estabelece o eixo principal do container, defindo assim a direção que os flex items são colocados no flex container
+Estabelece o eixo principal do container, defindo assim a direção que os flex items são colocados no [flex container](https://github.com/nildoeti/imersaoHTML5/blob/main/flex-box/1-flex-direction.html)
 
 ```css
 flex-direction: row
