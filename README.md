@@ -3,6 +3,7 @@ Repositório para a prática e construção das estruturas das HTML'S
 
 ### Propriedades relacionadas ao Flex Box
 - display
+  - define o elemento como um flex container, tornando os seus filhos flex-itens.
 - flex-direction
   - estabelece o eixo principal do container, defindo assim a direção que os
     flex items são colocados no flex container
