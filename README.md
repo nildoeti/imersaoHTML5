@@ -6,7 +6,7 @@ Repositório para a prática e construção das estruturas das HTML'S
 
 #### Display
 
-Define o elemento como um flex container, tornando os seus filhos  [flex-itens](0.display-flex.html).
+Define o elemento como um flex container, tornando os seus filhos  [flex-itens](https://github.com/nildoeti/imersaoHTML5/blob/main/flex-box/0-display-flex.html).
 
 #### flex-direction
 
