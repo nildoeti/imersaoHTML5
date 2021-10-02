@@ -4,6 +4,8 @@ Repositório para a prática e construção das estruturas das HTML'S
 ### Propriedades relacionadas ao Flex Box
 - display
 - flex-direction
+Estabelece o eixo principal do container, defindo assim a direção que os
+flex items são colocados no flex container
 - flex-wrap
 - flex-flow
 - justify-content
