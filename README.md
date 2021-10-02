@@ -26,7 +26,7 @@ flex-direction: column-reverse;
 // Os itens ficam em única coluna, um embaixo do outro, em ordem reversa: 3, 2 ...
 ```
 ### Exemplo do arquivo 1-flex-direction.html do projeto
-![flex-direction](img/1-flex-direction.jpg)
+![flex-direction](https://github.com/nildoeti/imersaoHTML5/blob/main/flex-box/img/1-flex-direction.jpg)
 
 -   flex-wrap
 -   flex-flow
