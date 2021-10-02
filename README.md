@@ -12,8 +12,6 @@ Define o elemento como um flex container, tornando os seus filhos  [flex-itens](
 
 Estabelece o eixo principal do container, defindo assim a direção que os flex items são colocados no [flex container](https://github.com/nildoeti/imersaoHTML5/blob/main/flex-box/1-flex-direction.html).
 
-![flex-direction](https://github.com/nildoeti/imersaoHTML5/blob/main/flex-box/1-flex-direction.jpg)
-
 ```css
 flex-direction: row
 // Os itens ficam em linha
@@ -27,6 +25,8 @@ flex-direction: column;
 flex-direction: column-reverse;
 // Os itens ficam em única coluna, um embaixo do outro, em ordem reversa: 3, 2 ...
 ```
+### Exemplo do arquivo 1-flex-direction.html do projeto
+![flex-direction](https://github.com/nildoeti/imersaoHTML5/blob/main/flex-box/1-flex-direction.jpg)
 
 -   flex-wrap
 -   flex-flow
