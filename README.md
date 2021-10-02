@@ -22,10 +22,6 @@ Define o elemento como um flex container, tornando os seus filhos flex-itens.
         flex-direction: column-reverse;
         // Os itens ficam em uma única coluna, um embaixo do outro, porém em ordem reversa: 3, 2 e 1.
         ```
-        ```css
-        flex-direction: column-reverse;
-        // Os itens ficam em uma única coluna, um embaixo do outro, porém em ordem reversa: 3, 2 e 1.
-    ```
 -   flex-wrap
 -   flex-flow
 -   justify-content
