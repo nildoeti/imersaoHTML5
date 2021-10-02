@@ -6,22 +6,26 @@ Repositório para a prática e construção das estruturas das HTML'S
 
 #### Display
 
-Define o elemento como um flex container, tornando os seus filhos flex-itens.
+Define o elemento como um flex container, tornando os seus filhos  [flex-itens](0.display-flex.html).
 
--   flex-direction
-    -   Estabelece o eixo principal do container, defindo assim a direção que os flex items são colocados no flex container
-        ```css
-        flex-direction: row
-        // Os itens ficam em linha
-        ```
-        ```css
-        flex-direction: column;
-        // Os itens ficam em uma única coluna, um embaixo   do outro.
-        ```
-        ```css
-        flex-direction: column-reverse;
-        // Os itens ficam em única coluna, um embaixo do outro, em ordem reversa: 3, 2 ...
-        ```
+#### flex-direction
+
+Estabelece o eixo principal do container, defindo assim a direção que os flex items são colocados no flex container
+
+```css
+flex-direction: row
+// Os itens ficam em linha
+```
+
+```css
+flex-direction: column;
+// Os itens ficam em uma única coluna, um embaixo   do outro.
+```
+```css
+flex-direction: column-reverse;
+// Os itens ficam em única coluna, um embaixo do outro, em ordem reversa: 3, 2 ...
+```
+
 -   flex-wrap
 -   flex-flow
 -   justify-content
