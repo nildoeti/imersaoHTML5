@@ -1,0 +1,45 @@
+.flex-container {
+    border: 2px solid #03102a;
+    flex-direction: row; /*É o padrão para display flex*/
+    display: flex;
+    height: 150px;
+    max-width: 300px;
+}
+
+.item {
+    font-size: 24px;
+    height: 50%;
+    line-height: 70px;
+    text-align: center;
+    min-width: 100px;
+}
+
+.nowrap {
+    flex-wrap: wrap;
+    /*valor default para display: flex;*/
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+/*Definição de cores pra os items filhos*/
+.amarelo {
+    background-color: #f4f922;
+}
+
+.azul {
+    background-color: #2f77b3;
+}
+
+.verde {
+    background-color: #3fc330;
+}
+
+.vermelho {
+    background-color: #ff0000 ;
+}
