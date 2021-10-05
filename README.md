@@ -28,17 +28,27 @@ flex-direction: column-reverse;
 ### Exemplo do arquivo 1-flex-direction.html do projeto
 ![flex-direction](https://github.com/nildoeti/imersaoHTML5/blob/main/flex-box/img/1-flex-direction.jpg)
 
-### flex-wrap
+  ### flex-wrap
+  Define items que deve quebrar ou não, sendo que por padrão não aconcete a quebra de linha, compactando os flex items além do limite do conteúdo.
+
 ```css
 flex-wrap: nowrap;
 // Não permite a quebra de linha
+```
+![nowrap](https://github.com/nildoeti/imersaoHTML5/blob/main/flex-box/img/nowrap.jpg)
 
+```css
 flex-wrap: wrap;
 // Gera a quebra de linha assim que um dos flex items não poder mais ser compactado.
+```
+![wrap](https://github.com/nildoeti/imersaoHTML5/blob/main/flex-box/img/wrap.jpg)
 
+```css
 flex-wrap: wrap-reverse;
 // Gera a quebra de linha assim que um dos flex items não poder mais ser compactado, porém na direção contrária, uma linha acima.
 ```
+![wrap-reverse](https://github.com/nildoeti/imersaoHTML5/blob/main/flex-box/img/wrap-reverse.jpg)
+
 -   flex-flow
 -   justify-content
 -   align-items
