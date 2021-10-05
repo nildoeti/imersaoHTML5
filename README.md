@@ -28,7 +28,17 @@ flex-direction: column-reverse;
 ### Exemplo do arquivo 1-flex-direction.html do projeto
 ![flex-direction](https://github.com/nildoeti/imersaoHTML5/blob/main/flex-box/img/1-flex-direction.jpg)
 
--   flex-wrap
+### flex-wrap
+```css
+flex-wrap: nowrap;
+// Não permite a quebra de linha
+
+flex-wrap: wrap;
+// Gera a quebra de linha assim que um dos flex items não poder mais ser compactado.
+
+flex-wrap: wrap-reverse;
+// Gera a quebra de linha assim que um dos flex items não poder mais ser compactado, porém na direção contrária, uma linha acima.
+```
 -   flex-flow
 -   justify-content
 -   align-items
