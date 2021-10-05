@@ -1,0 +1,11 @@
+.flex {
+  border: 2px solid #000000;
+  display: flex;
+  max-width: 300px;
+  padding: 2px;
+}
+
+.item {
+  background-color: #daabdb;
+  margin: 5px;
+}
