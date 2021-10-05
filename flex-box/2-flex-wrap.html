@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/2-flex-wrap.css" />
+    <title>Prática com Flex Wrap</title>
+</head>
+
+<body>
+    <h1><code>flex-wrap: nowrap;</code></code></h1>
+    <div class="flex-container no-wrap">
+        <!--no-wrap é o padrão display-flex -->
+        <div class="item amarelo">1</div>
+        <div class="item verde">2</div>
+        <div class="item azul">3</div>
+        <!--O item abaixo vaza do conteiner.  -->
+        <div class="item vermelho">4</div>
+    </div>
+
+    <h1><code>flex-wrap: wrap;</code></h1>
+    <div class="flex-container wrap">
+        <div class="item vermelho">1</div>
+        <div class="item azul">2</div>
+        <div class="item amarelo">3</div>
+        <!--O item abaixo, é encaixado dentro do conteiner-->
+        <div class="item verde">4</div>
+    </div>
+
+
+    <h1><code>flex-wrap: wrap-reverse; </ /code></code></h1>
+    <div class="flex-container wrap-reverse">
+        <div class="item verde">1</div>
+        <div class="item vermelho">2</div>
+        <div class="item amarelo">3</div>
+        <div class="item azul">4</div>
+    </div>
+</body>
+
+</html>
