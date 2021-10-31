@@ -4,9 +4,74 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/flex-flow.css">
   <title>Estrutura básica e prática com flex flow</title>
 </head>
 <body>
   <h1>Estrutura básica e prática com flex flow</h1>
+
+  <p>
+    O flex-flow é um atalho para as propriedades <code>flex-direction</code> e
+    <code>flex-wrap</code>. Você não verá muito o seu uso, pois geralmente quando
+    mudamos o flex-direction para column, mantemos o padrão do flex-wrap que é nowrap.
+  </p>
+  <p>
+    E quando mudamos o <code>flex-wrap</code> para <em>wrap</em>, mantemos o
+    padrão do <code>flex-direction</code> que é <em>row</em>.
+  </p>
+
+  <div class="">
+    <h1>Default: <code>now nowrap</code></h1>
+    <div class="flex-container default">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+
+    <h1><code>Wrap</code></h1>
+    <div class="flex-container wrap">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+    </div>
+
+    <h1><code>wrap-reverse</code></h1>
+    <div class="flex-container wrap-reverse">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+    </div>
+
+    <h1><code>row-reverse nowrap</code></h1>
+    <div class="flex-container r-nowrap">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+    </div>
+
+    <h1><code>row-reverse wrap</code></h1>
+    <div class="flex-container r-wrap">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+    </div>
+
+  </div>
 </body>
 </html>
