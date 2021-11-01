@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/align-items.css">
+    <title>Estrutura básica e prática com align items</title>
+</head>
+<body>
+    <!--
+        center: flex items centralizados
+        stretch: padrão, com flex items distribuidos igualmente
+        flex-start: flex-items distribuidos no início da box
+        flex-end:  flex-items distribuidos no fim da box
+        baseline: alinhamento com base no tamanho da box
+    -->
+
+    <!--center-->
+    <h2><code>align-items: center</code></h2>
+    <section class="container center">
+        <div class="item">Texto 1</div>
+        <div class="item">Meu texto 2</div>
+        <div class="item">3</div>
+        <div class="item">alinhamento com base no tamanho da box</div>
+        <div class="item">4</div>
+        <div class="item">Eu sou o ultimo item filho na posição 5</div>
+    </section>
+
+      <!--strectch-->
+      <h2><code>align-items: strectch</code></h2>
+      <section class="container stretch">
+          <div class="item">Texto 1</div>
+          <div class="item">Meu texto 2</div>
+          <div class="item">3</div>
+          <div class="item">alinhamento com base no tamanho da box</div>
+          <div class="item">4</div>
+          <div class="item">Eu sou o ultimo item filho na posição 5</div>
+      </section>
+
+            <!--flex-start-->
+            <h2><code>align-items: flex-start</code></h2>
+            <section class="container start">
+                <div class="item">Texto 1</div>
+                <div class="item">Meu texto 2</div>
+                <div class="item">3</div>
+                <div class="item">alinhamento com base no tamanho da box</div>
+                <div class="item">4</div>
+                <div class="item">Eu sou o ultimo item filho na posição 5</div>
+            </section>
+
+            <!--flex-end-->
+            <h2><code>align-items: flex-end</code></h2>
+            <section class="container end">
+                <div class="item">Texto 1</div>
+                <div class="item">Meu texto 2</div>
+                <div class="item">3</div>
+                <div class="item">alinhamento com base no tamanho da box</div>
+                <div class="item">4</div>
+                <div class="item">Eu sou o ultimo item filho na posição 5</div>
+            </section>
+
+                <!--baseline-->
+                <h2><code>align-items: baseline</code></h2>
+                <section class="container baseline">
+                    <div class="item">Texto 1</div>
+                    <div class="item">Meu texto 2</div>
+                    <div class="item">3</div>
+                    <div class="item">alinhamento com base no tamanho da box</div>
+                    <div class="item">4</div>
+                    <div class="item">Eu sou o ultimo item filho na posição 5</div>
+                </section>
+
+</body>
+</html>
