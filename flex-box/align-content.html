@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/align-content.css">
+    <title>Estrutura básica e prática com align content</title>
+</head>
+<body>
+    <!--
+        align-content - para tratamento de linhas verticais do container
+
+        REGRAS: container tenhar quebra de linha
+                altura seja maior que a soma das linhas
+        PROPRIEDADES:   
+            center          - centralizar os items
+            stretch         - padrão, com crescimento iguais entre items
+            flex-start      - items alinhado no inicio
+            flex-end        - items alinhados no fim
+            space-between   - distribuição igual de espaços entre items
+            space-around    - espaçamento entre items do meio maior que 
+                                espaçamentos do inicio e fim
+
+
+    -->
+
+    <h2><code>stretch</code></h2>
+    <section class="container stretch">
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim, pariatur beatae?</div>
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim, pariatur beatae?</div>
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim</div>
+        <div class="item">consequatur porro vitae consectetur</div>
+        <div class="item">consequatur porro vitae</div>
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim, pariatur beatae?</div>
+        <div class="item">consequatur porro vitae</div>
+        <div class="item">consequatur porro vitae</div>
+    </section>
+
+    <h2><code>center</code></h2>
+    <section class="container center">
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim, pariatur beatae?</div>
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim, pariatur beatae?</div>
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim</div>
+        <div class="item">consequatur porro vitae consectetur</div>
+        <div class="item">consequatur porro vitae</div>
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim, pariatur beatae?</div>
+        <div class="item">consequatur porro vitae</div>
+        <div class="item">consequatur porro vitae</div>
+    </section>
+
+    <h2><code>start</code></h2>
+    <section class="container start">
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim, pariatur beatae?</div>
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim, pariatur beatae?</div>
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim</div>
+        <div class="item">consequatur porro vitae consectetur</div>
+        <div class="item">consequatur porro vitae</div>
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim, pariatur beatae?</div>
+        <div class="item">consequatur porro vitae</div>
+        <div class="item">consequatur porro vitae</div>
+    </section>
+
+    <h2><code>end</code></h2>
+    <section class="container end">
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim, pariatur beatae?</div>
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim, pariatur beatae?</div>
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim</div>
+        <div class="item">consequatur porro vitae consectetur</div>
+        <div class="item">consequatur porro vitae</div>
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim, pariatur beatae?</div>
+        <div class="item">consequatur porro vitae</div>
+        <div class="item">consequatur porro vitae</div>
+    </section>
+
+    <h2><code>around</code></h2>
+    <section class="container around">
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim, pariatur beatae?</div>
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim, pariatur beatae?</div>
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim</div>
+        <div class="item">consequatur porro vitae consectetur</div>
+        <div class="item">consequatur porro vitae</div>
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim, pariatur beatae?</div>
+        <div class="item">consequatur porro vitae</div>
+        <div class="item">consequatur porro vitae</div>
+    </section>
+
+
+    <h2><code>between</code></h2>
+    <section class="container between">
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim, pariatur beatae?</div>
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim, pariatur beatae?</div>
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim</div>
+        <div class="item">consequatur porro vitae consectetur</div>
+        <div class="item">consequatur porro vitae</div>
+        <div class="item">consequatur porro vitae consectetur, facere deleniti sint? Enim, pariatur beatae?</div>
+        <div class="item">consequatur porro vitae</div>
+        <div class="item">consequatur porro vitae</div>
+    </section>
+</body>
+</html>
