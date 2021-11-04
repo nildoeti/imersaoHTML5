@@ -1,0 +1,40 @@
+.container {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    min-width: 300px;
+}
+
+.item {
+    color: white;
+    background-color: crimson;
+    flex: 1;
+    margin: 5px;;
+    padding: 0 auto;
+    text-align: center;
+}
+
+.stretch {
+    align-content: stretch;
+}
+
+.center {
+    align-content: center;
+}
+
+.start {
+    align-content: flex-start;
+}
+
+.end {
+    align-content: flex-end;
+}
+
+.around {
+    align-content: space-around;
+}
+
+.between {
+    align-content: space-between;
+}
